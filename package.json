@@ -1,0 +1,21 @@
+{
+  "name": "azerbaijan-sovereign-ai",
+  "version": "1.0.0",
+  "description": "Azerbaijan Sovereign Web3 + AI Architecture",
+  "main": "src/sovereign_core.py",
+  "scripts": {
+    "test": "python -m unittest discover -s tests -p \"*_test.py\"",
+    "reality-check": "python -m unittest discover -s tests -p \"*_test.py\""
+  },
+  "keywords": [
+    "web3",
+    "ai",
+    "sovereign",
+    "aze",
+    "post-quantum",
+    "x402",
+    "conway-automaton"
+  ],
+  "author": "Global Sovereign Web3+AI Framework",
+  "license": "Apache-2.0"
+}
