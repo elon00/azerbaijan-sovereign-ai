@@ -1,38 +1,57 @@
-# Azerbaijan Sovereign Web3 + AI Architecture
-## Sovereign Node, Decentralized Identity & Multilateral Cross-Border Settlement
-**ISO Code:** AZ / AZE | **Capital:** Baku | **Geographic Region:** West Asia  
-**Architecture Baseline:** Version 5.0 (Global Sovereign Release)  
-**Security Standard:** NIST Post-Quantum Cryptography (FIPS 203 ML-KEM & FIPS 204 ML-DSA)  
-**Autonomous Engine:** Conway Automaton (B3/S23 State Machine) & x402 Bazaar Protocol  
-**Repository Identity:** `azerbaijan-sovereign-ai` | **Language Standard:** 100% English Only  
+# Azerbaijan Cryptocurrency Token Project
 
----
+Independent Azerbaijan-themed cryptocurrency/token and blockchain application prototype, maintained by elon00.
 
-### 1. Executive Mandate & Sovereign Architecture
-The **Azerbaijan Sovereign Web3 + AI Node** is the authoritative, tamper-proof national digital infrastructure providing:
-1. **Self-Sovereign Identity (SSI / W3C DID):** Citizen and enterprise identity verification with zero knowledge privacy preservation (`did:sovereign:aze:<hash>`).
-2. **Sovereign Treasury & CBDC Rails:** Interoperable settlement engine connecting domestic central banking rails to multilateral bodies (IMF SDRs, World Bank, WTO).
-3. **Disaster Resilience & Parametric Trigger Mesh:** Autonomous sensor ingestion (WMO climate telemetry) with automated disaster relief release vaults.
-4. **Post-Quantum Cryptographic Defense:** Quantum-resilient ML-KEM-768 key exchange and ML-DSA-65 signatures protecting national secrets against harvest-now-decrypt-later adversaries.
+## Project identity
 
----
+This project targets tokens on existing blockchain networks. The repository name is a historical identifier; asset definitions, supported chains and deployed addresses must be established from the actual implementation and verified release records.
 
-### 2. Autonomous Consensus & Telemetry
-```mermaid
-flowchart LR
-    Citizen["National Citizens & Enterprises"] -->|DID / Pederson Proof| Core["AZE Sovereign Node"]
-    Core -->|ML-KEM-768 Key Encapsulation| PQC["NIST Post-Quantum Layer"]
-    Core -->|B3/S23 State Transitions| Conway["Conway Automaton Consensus"]
-    Core -->|HTTP 402 Micropayments| x402["x402 Bazaar Protocol"]
-    Core -->|Cross-Border Clearing| UN["Multilateral Interoperability (UN/WTO)"]
+| Item | Status |
+|---|---|
+| Product stage | Prototype; production readiness requires evidence |
+| Asset type | Blockchain token; chain-specific standard to be selected |
+| Token name, symbol and decimals | Pending project specification |
+| Initial supply and emission policy | Pending tokenomics review |
+| Mint, upgrade and treasury authorities | Pending role and custody design |
+| Canonical chain and network identifier | Pending compatibility review |
+| Testnet contract/program/asset identifier | Pending verified release evidence |
+| Mainnet contract/program/asset identifier | Pending approved release evidence |
+
+## Cryptocurrency and blockchain scope
+
+- Implement a useful token and its application on a compatible blockchain.
+- Define utility, finite issuance transactions, lifetime supply policy, emission limits, vesting, governance and treasury controls.
+- Use the selected chain's token standard, wallet signing flow, transaction format, fees and finality rules.
+- Integrate wallet connections, balances, transaction previews and validated payment QR payloads.
+- Use authenticated RPC access and chain identity checks; configure QuickNode where the selected network supports it.
+- Add x402 paid API access and Bazaar discovery only when the product has a real paid resource and supported settlement path.
+
+EVM contracts, Solana programs, Move modules, Algorand assets, TON contracts and ICP canisters require appropriate implementations and verification. A TVL ranking does not establish cross-chain compatibility.
+
+## Implementation and verification
+
+Existing research or simulation modules must be evaluated separately from working token contracts, cryptographic verification and confirmed payments. A local hash, a formatted proof string, a module name or a passing CI badge does not establish those capabilities.
+
+Before a release, record:
+
+1. The exact source commit and reproducible build artifact.
+2. Meaningful unit, regression, smoke, dependency, secret and applicable CodeQL/static-analysis results.
+3. Token supply invariants, access control, unauthorized mint rejection and wallet/signature replay tests.
+4. Correct chain identity, real testnet transactions, public explorer links and source-to-deployment verification.
+5. Operational monitoring, recovery tests, fee budget, authorized signer and release approval.
+
+PQC features require genuine reviewed algorithms and published-vector/negative tests. Conway B3/S23 can serve as a simulation component; its presence alone does not establish network consensus.
+
+## Development
+
+Review the repository's actual package manifests, dependencies and CI configuration before running its code. For the Python prototype suite, where present:
+
+```sh
+python -m unittest discover -s tests -p "*_test.py"
 ```
 
----
+Test output must describe the checks actually executed. A perfect readiness score is earned through current evidence.
 
-### 3. Verification & Quality Gates
-- **CodeQL Static Security Analysis:** Zero critical vulnerabilities, fail-closed policy.
-- **Reality Check Test Harness:** 100% automated invariant checks, sanity, and regression testing.
-- **Multi-Chain Telemetry:** Solana, Base (L2), Arbitrum, Algorand, Stellar, and ICP mainnet/testnet failover probes.
+## Portfolio coordination
 
----
-*Maintained under the Global Sovereign Web3+AI Framework for Azerbaijan.*
+Use [bountyhunter-os](https://github.com/elon00/bountyhunter-os) for repository-specific repair profiles, source-bound test evidence and release blocker tracking. Keep this product's source, token configuration and deployment history in this repository.
