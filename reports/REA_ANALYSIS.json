@@ -1,0 +1,50 @@
+{
+  "engine": "REA_Reverse_Engineer_Anything",
+  "status": "STRUCTURE_RECONSTRUCTED",
+  "analyzed_files": 14,
+  "manifest": {
+    "package.json": {
+      "bytes": 551
+    },
+    "README.md": {
+      "bytes": 3658
+    },
+    "requirements.txt": {
+      "bytes": 57
+    },
+    "scripts\\rea_inspector.py": {
+      "bytes": 1485
+    },
+    "scripts\\rsi_engine.py": {
+      "bytes": 2039
+    },
+    "src\\conway_consensus.py": {
+      "bytes": 1656
+    },
+    "src\\pqc_layer.py": {
+      "bytes": 1210
+    },
+    "src\\sovereign_core.py": {
+      "bytes": 2002
+    },
+    "src\\x402_telemetry.py": {
+      "bytes": 956
+    },
+    "src\\__init__.py": {
+      "bytes": 30
+    },
+    "tests\\reality_check_test.py": {
+      "bytes": 2426
+    },
+    "tests\\__init__.py": {
+      "bytes": 32
+    },
+    ".github\\workflows\\codeql-reality-check.yml": {
+      "bytes": 1058
+    },
+    ".github\\workflows\\qmoosa-rsi-rea-sync.yml": {
+      "bytes": 531
+    }
+  },
+  "timestamp": 1793987440
+}
